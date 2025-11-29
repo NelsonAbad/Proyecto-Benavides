@@ -1,0 +1,69 @@
+/**
+ * AG Book Rounded Font Family
+ * 
+ * NOTA IMPORTANTE:
+ * AG Book Rounded es una fuente comercial de Linotype.
+ * Para uso en producción, debe adquirir una licencia válida.
+ * 
+ * Opciones de implementación:
+ * 
+ * 1. Si tiene archivos de fuente locales:
+ *    Descomente y actualice las rutas @font-face a continuación
+ * 
+ * 2. Si tiene licencia de Adobe Fonts o servicio similar:
+ *    Agregue el script/link de Adobe Fonts en el HTML
+ * 
+ * 3. Para desarrollo:
+ *    La aplicación usa fuentes redondeadas gratuitas como fallback:
+ *    - Nunito (muy similar, gratuita)
+ *    - Quicksand (alternativa redondeada)
+ *    - Varela Round (alternativa redondeada)
+ */
+
+/* 
+ * Descomente y actualice estas declaraciones @font-face 
+ * cuando tenga los archivos de fuente AG Book Rounded
+ */
+
+/*
+@font-face {
+  font-family: 'AG Book Rounded';
+  src: url('/fonts/AGBookRounded-Regular.woff2') format('woff2'),
+       url('/fonts/AGBookRounded-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AG Book Rounded';
+  src: url('/fonts/AGBookRounded-Medium.woff2') format('woff2'),
+       url('/fonts/AGBookRounded-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AG Book Rounded';
+  src: url('/fonts/AGBookRounded-Bold.woff2') format('woff2'),
+       url('/fonts/AGBookRounded-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/**
+ * Fuentes alternativas redondeadas (ya incluidas en Google Fonts)
+ * Estas están activas y funcionan como fallback mientras no tenga AG Book Rounded
+ */
+
+/* Nunito - Fuente redondeada muy similar a AG Book Rounded */
+/* Ya importada desde Google Fonts en globals.css */
+
+/* Quicksand - Alternativa redondeada geométrica */
+/* Ya importada desde Google Fonts en globals.css */
+
+/* Varela Round - Alternativa simple y redondeada */
+/* Ya importada desde Google Fonts en globals.css */
